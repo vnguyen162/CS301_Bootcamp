@@ -1,0 +1,55 @@
+Printing a triangle of height 0
+Printing a triangle of height 1
+*
+Printing a triangle of height 2
+ *
+**
+Printing a triangle of height 3
+  *
+ **
+***
+Printing a triangle of height 4
+   *
+  **
+ ***
+****
+Printing a triangle of height 5
+    *
+   **
+  ***
+ ****
+*****
+Printing a triangle of height 6
+     *
+    **
+   ***
+  ****
+ *****
+******
+Printing a triangle of height 7
+      *
+     **
+    ***
+   ****
+  *****
+ ******
+*******
+Printing a triangle of height 8
+       *
+      **
+     ***
+    ****
+   *****
+  ******
+ *******
+********
+Printing a triangle of height 9
+        *
+       **
+      ***
+     ****
+    *****
+   ******
+  *******
+ ********
+*********

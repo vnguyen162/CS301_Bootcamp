@@ -1,0 +1,55 @@
+Printing a pyramid of height 0
+Printing a pyramid of height 1
+*
+Printing a pyramid of height 2
+ *
+***
+Printing a pyramid of height 3
+  *
+ ***
+*****
+Printing a pyramid of height 4
+   *
+  ***
+ *****
+*******
+Printing a pyramid of height 5
+    *
+   ***
+  *****
+ *******
+*********
+Printing a pyramid of height 6
+     *
+    ***
+   *****
+  *******
+ *********
+***********
+Printing a pyramid of height 7
+      *
+     ***
+    *****
+   *******
+  *********
+ ***********
+*************
+Printing a pyramid of height 8
+       *
+      ***
+     *****
+    *******
+   *********
+  ***********
+ *************
+***************
+Printing a pyramid of height 9
+        *
+       ***
+      *****
+     *******
+    *********
+   ***********
+  *************
+ ***************
+*****************

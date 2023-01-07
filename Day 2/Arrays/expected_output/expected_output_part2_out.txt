@@ -1,0 +1,11 @@
+Prof. Erickson's Array Sandbox Question 2:
+100
+90
+80
+70
+60
+50
+40
+30
+20
+10

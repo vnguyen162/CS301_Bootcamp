@@ -1,0 +1,6 @@
+Prof. Erickson's Array Sandbox Question 4:
+Enter ten capital letters, one at a time:
+Your message was:
+H E L L O W O R L D 
+Your message in reverse was:
+D L R O W O L L E H 

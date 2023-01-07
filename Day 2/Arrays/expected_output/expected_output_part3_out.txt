@@ -1,0 +1,6 @@
+Prof. Erickson's Array Sandbox Question 3:
+Number of values: 30
+Sum: 128654
+Average Value: 4288.47
+Maximum Value: 123456
+Minimum Value: -123

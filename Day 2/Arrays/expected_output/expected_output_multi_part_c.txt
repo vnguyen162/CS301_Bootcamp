@@ -1,0 +1,13 @@
+Enter a whole number:
+
+Question 3:
+0	0	0	0	
+4	4	4	4	
+8	8	8	8	
+12	12	12	12	
+16	16	16	16	
+There are 20 values in myGrid.
+The sum is: 160
+The average is: 8
+The maximum is: 16
+The minimum is: 0
