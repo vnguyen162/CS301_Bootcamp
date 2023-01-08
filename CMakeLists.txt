@@ -23,5 +23,5 @@ add_subdirectory("Day 3")
 # Day 4
 add_subdirectory("Day 4")
 
-#add_subdirectory("Day 5")
+add_subdirectory("Day 5")
 

@@ -7,7 +7,7 @@ project(CS301-Bootcamp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY .)
 
 # Example Mains
 add_executable(Classes_Ex_Employee_Pay Classes_Ex_Employee_Pay.cpp)
