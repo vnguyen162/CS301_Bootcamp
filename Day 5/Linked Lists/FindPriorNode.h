@@ -1,0 +1,7 @@
+
+#ifndef CS301_BOOTCAMP_FINDPRIORNODE_H
+#define CS301_BOOTCAMP_FINDPRIORNODE_H
+
+Node* FindPriorNode(Node *head, int value);
+
+#endif //CS301_BOOTCAMP_FINDPRIORNODE_H
