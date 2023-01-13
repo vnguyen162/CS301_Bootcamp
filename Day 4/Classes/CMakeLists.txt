@@ -16,4 +16,5 @@ add_executable(Classes_Ex_Employee_Pay Classes_Ex_Employee_Pay.cpp)
 add_executable(Classes_Tests unit_tests/ClassTests.cpp Deck.cpp Deck.h)
 
 # Main files
-add_executable(Basic_Deck_Tester Basic_Deck_Tester.cpp Card_Game.cpp Deck.cpp Deck.h)
+add_executable(Basic_Deck_Tester Basic_Deck_Tester.cpp Deck.cpp Deck.h)
+add_executable(Basic_Deck_Game Card_Game.cpp Deck.cpp Deck.h)

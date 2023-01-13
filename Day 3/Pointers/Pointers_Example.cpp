@@ -20,7 +20,9 @@ int main()
 
 int* Create_Array(const int size)
 {
-    int arr[size];
+    //int *arr = new int[size]; //dataType *name = new dataType[size]
+    int *arr;
+    arr = new int [size];
     return arr;
 }
 int* Set_Array(int* arr, int size)

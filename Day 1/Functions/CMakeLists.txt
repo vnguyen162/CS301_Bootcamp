@@ -4,5 +4,5 @@ project(CS301-Bootcamp)
 set(CMAKE_CXX_STANDARD 14)
 
 # Main files
-add_executable(Functions_Ex_addTogether_GetYesNo Functions_Ex_addTogether_GetYesNo.cpp Function_practice.cpp)
-add_executable(Functions_practice Function_practice.cpp)
+add_executable(Functions_Ex_addTogether_GetYesNo Functions_Ex_addTogether_GetYesNo.cpp)
+add_executable(Functions_practice Functions_practice.cpp)

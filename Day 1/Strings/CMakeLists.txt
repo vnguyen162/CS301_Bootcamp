@@ -14,5 +14,5 @@ add_executable(String_Examples string_examples.cpp)
 add_executable(String_cstring_Examples c_string_examples.cpp)
 
 # Unit Tests
-add_executable(String_Practice_Basic_Tests  String_Practice.cpp)
+add_executable(String_Practice_Basic_Tests  String_Practice.cpp Vowel_Tester.cpp)
 add_executable(String_Practice_Unit_Tests unit_tests/StringTests.cpp String_Practice.cpp)
