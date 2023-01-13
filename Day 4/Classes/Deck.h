@@ -1,8 +1,8 @@
-
 #ifndef CS301_BOOTCAMP_DECK_H
 #define CS301_BOOTCAMP_DECK_H
 
 #include <iostream>
+#include<string>
 using namespace std;
 
 const int MAX_DECK_SIZE = 52*4;
@@ -28,8 +28,15 @@ struct Card {
 
         // You may find it convenient to use to_string(rank)
         // to convert the rank private variable to a string.
+        string str;
+        if (face == BAD_FACE)
+            str = "Bad card";
+        else if (face == NUMERAL)
+            str = to_string(rank) + " of " + SUITNAMES[suit];
+        else
+            str = FACENAMES[face] + " of " + SUITNAMES[suit];
 
-        return "";  // You will need to change this
+        return str;  // You will need to change this
     }
 };
 
