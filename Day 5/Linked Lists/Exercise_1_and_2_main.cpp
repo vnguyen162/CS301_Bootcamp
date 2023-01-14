@@ -12,8 +12,8 @@ void DeleteNode(Node*& head, int value);
 
 int main() {
 
-    int array[6] = {5, 8, 21, 3, 4, 3};
-    //int array[6] = {5, 5, 5, 3, 4, 3};//use to test duplication for DeleteNode function
+    //int array[6] = {5, 8, 21, 3, 4, 3};
+    int array[6] = {5, 5, 5, 3, 4, 3};//use to test duplication for DeleteNode function
 
     Node *head = arrayToLinkList(array, 6);
     cout<<"Display original list"<<endl;
@@ -26,7 +26,7 @@ int main() {
         cout<<"Not found"<<endl;
     else
         cout<<temp->value<<endl;
-    int numToDelete = 11;
+    int numToDelete = 5;
     cout<<"After deleting "<<numToDelete<<endl;
     DeleteNode(head, numToDelete);
 
@@ -76,7 +76,7 @@ void DeleteNode(Node*& head, int value)
             Node *temp = prev->next;
             prev->next = prev->next->next;// prev->next = temp->next
             delete temp;
-            start = start->next;
+            start = prev->next;
         }
     }
 }
